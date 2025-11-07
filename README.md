@@ -135,10 +135,9 @@ The analysis builds predictive models to optimize marketing efficiency and retur
 ```
 fundamentals-of-data-analytics/
 ‚
- data/                       # Datasets
- notebooks/                  # Jupyter notebooks
- scripts/                    # Python scripts
- reports/                    # Reports and visuals
+ data/                       # Dataset
+ notebook/                  # Colab notebook
+ images/                    # Reports and visuals
  requirements.txt            # Dependencies
  README.md                   # Documentation
 ```

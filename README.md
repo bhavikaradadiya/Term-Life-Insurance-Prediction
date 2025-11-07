@@ -1,5 +1,5 @@
 # Term-Life-Insurance-Prediction
-#   Fundamentals of Data Analytics  
+ 
 ## Machine Learning Meets Term Life Insurance: Targeting High-Value Customers
 
 ###  Author
@@ -15,7 +15,7 @@ The analysis builds predictive models to optimize marketing efficiency and retur
 
 ---
 
-## ðŸ“Š Dataset Description
+##  Dataset Description
 - **Source:** HashSysTech Insurance internal telemarketing dataset  
 - **Number of records:** 45,211  
 - **Target variable:** `y` (Customer subscribed: yes/no)  
@@ -36,7 +36,7 @@ The analysis builds predictive models to optimize marketing efficiency and retur
 
 ---
 
-## ðŸ§¹ Data Exploration & Preparation
+##  Data Exploration & Preparation
 
 ### 1. **Data Exploration**
 - Calculated measures of central tendency and dispersion (mean, median, std)
@@ -53,7 +53,7 @@ The analysis builds predictive models to optimize marketing efficiency and retur
 
 ---
 
-## ðŸ¤– Machine Learning Models
+##  Machine Learning Models
 
 ### 1. **Logistic Regression**
 - Binary classification model for conversion likelihood  
@@ -65,7 +65,7 @@ The analysis builds predictive models to optimize marketing efficiency and retur
 
 ---
 
-## âš™ï¸ Model Training & Evaluation
+### Model Training & Evaluation
 
 ### **Data Splitting**
 - **Train-Test Split:** 70/30  
@@ -82,7 +82,7 @@ The analysis builds predictive models to optimize marketing efficiency and retur
 
 ---
 
-## ðŸ“ˆ Model Performance
+## Model Performance
 
 | Metric | Logistic Regression | Random Forest |
 |---------|--------------------|----------------|
@@ -98,7 +98,7 @@ The analysis builds predictive models to optimize marketing efficiency and retur
 
 ---
 
-## ðŸ§ª Hyperparameter Tuning
+##  Hyperparameter Tuning
 - Used **GridSearchCV** for both models  
 - Logistic Regression: increased `max_iter` for convergence  
 - Random Forest: tuned `n_estimators`, `max_depth`, `min_samples_split`  
@@ -106,7 +106,7 @@ The analysis builds predictive models to optimize marketing efficiency and retur
 
 ---
 
-## ðŸ§¾ Key Findings
+##  Key Findings
 - Logistic Regression best suited for this dataset  
 - Age and call characteristics drive conversion probability  
 - Random Forest less efficient but offered interpretability  
@@ -114,14 +114,14 @@ The analysis builds predictive models to optimize marketing efficiency and retur
 
 ---
 
-## ðŸš€ Future Work
+##  Future Work
 - Test **Gradient Boosting**, **XGBoost**, **SVM**  
 - Enhance feature engineering and normalization  
 - Implement **cross-validation** and **dashboard visualizations**
 
 ---
 
-## ðŸ§° Tools & Technologies
+##  Tools & Technologies
 | Category | Tools |
 |-----------|--------|
 | Language | Python 3.x |
@@ -131,21 +131,21 @@ The analysis builds predictive models to optimize marketing efficiency and retur
 
 ---
 
-## ðŸ“ Folder Structure
+##  Folder Structure
 ```
 fundamentals-of-data-analytics/
-â”‚
-â”œâ”€â”€ data/                       # Datasets
-â”œâ”€â”€ notebooks/                  # Jupyter notebooks
-â”œâ”€â”€ scripts/                    # Python scripts
-â”œâ”€â”€ reports/                    # Reports and visuals
-â”œâ”€â”€ requirements.txt            # Dependencies
-â””â”€â”€ README.md                   # Documentation
+‚
+ data/                       # Datasets
+ notebooks/                  # Jupyter notebooks
+ scripts/                    # Python scripts
+ reports/                    # Reports and visuals
+ requirements.txt            # Dependencies
+ README.md                   # Documentation
 ```
 
 ---
 
-## ðŸ“– References
+## References
 - Breiman, L. (2001). *Random Forests*. Machine Learning, 45(1), 5â€“32.  
 - Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning*. Springer.  
 - James, G. et al. (2013). *An Introduction to Statistical Learning with Applications in R*. Springer.  
@@ -155,7 +155,7 @@ fundamentals-of-data-analytics/
 
 ---
 
-## ðŸ Conclusion
+##  Conclusion
 This project completes the **data analytics lifecycle**, from exploration to model evaluation.  
 By integrating statistical methods with machine learning, it reveals key predictors influencing life-insurance conversions.  
 The analysis supports **data-driven marketing** and improved **customer targeting** strategies.
